@@ -1,0 +1,50 @@
+{
+    "name": "gmaniac/us-address-normalization",
+    "description": "US address normalization and hashing library",
+    "keywords": [
+        "address",
+        "normalization",
+        "parser",
+        "usps",
+        "postal",
+        "us-address",
+        "united-states",
+        "street-address"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/gmaniac/us-address-normalization-php",
+    "authors": [
+        {
+            "name": "gmaniac",
+            "homepage": "https://github.com/gmaniac"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gmaniac/us-address-normalization-php/issues",
+        "source": "https://github.com/gmaniac/us-address-normalization-php"
+    },
+    "autoload": {
+        "psr-4": {
+            "UsAddressNormalization\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^10.0 || ^11.0"
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
